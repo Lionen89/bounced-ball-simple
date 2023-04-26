@@ -7,12 +7,12 @@ body {
 .ball {
   border-radius: 50%;
   position: fixed;
-  width: 55px;
-  height: 55px;
+  width: 10vh;
+  height: 10vh;
   background-image: url('https://js.cx/clipart/ball.svg');
   background-size: contain;
   top: 0;
-  left: calc(50% - 55px / 2);
+  left: calc(50% - 10vh / 2);
 }
 .ball__animation {
   animation-name: jump;
@@ -40,6 +40,6 @@ body {
 
 @keyframes jump {
   50% {
-    top: 49vh;
+    top: 45vh;
   }
 }
